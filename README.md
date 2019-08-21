@@ -1,4 +1,4 @@
-#Impact Dance
+# Impact Dance
 For nearly 25 years, Impact Dance has motivated, inspired and nurtured young people through hip-hop and street dance. Founded by Hakeem
 Onibudo, the company has been a leader in the hip-hop, street and youth dance sector since its inception in 1995.
 

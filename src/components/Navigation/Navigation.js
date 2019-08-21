@@ -4,7 +4,7 @@ import Box from '@material-ui/core/Box';
 
 const Navigation = () => {
   return (
-    <Box>
+    <Box component="div">
       <nav role="navigation" aria-label="Main">
         <ul>
           <li><Link to="/">Home</Link></li>

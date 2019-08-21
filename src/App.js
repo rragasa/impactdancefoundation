@@ -5,7 +5,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <Box className="App">
+    <Box component="div" className="App">
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/Home" component={Home} />

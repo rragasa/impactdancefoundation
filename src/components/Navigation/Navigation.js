@@ -12,6 +12,7 @@ const styles = theme => ({
     display: 'flex',
     float: 'right',
     marginRight: theme.spacing(4),
+    zIndex: '99999',
   },
   title: {
     flexGrow: 1,
@@ -37,8 +38,17 @@ export class Navigation extends Component {
     const { classes } = this.props;
     const { showMenu } = this.state;
 
+    let boxClass = ['nav-links'];
+    if (showMenu) {
+      boxClass.push('open');
+    }
+
     return (
-      <nav role="navigation" aria-label="Main" className={classes.root}>
+      <nav
+        role="navigation"
+        aria-label="Main"
+        classes={classes.root}
+        className={boxClass.join(' ')}>
         <IconButton
           onClick={this.handleNavigation}
           edge="start"

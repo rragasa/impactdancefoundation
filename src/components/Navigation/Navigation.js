@@ -11,7 +11,7 @@ const styles = theme => ({
   menuButton: {
     display: 'flex',
     float: 'right',
-    marginRight: theme.spacing(4),
+    margin: theme.spacing(3),
     zIndex: '99999',
   },
   title: {
@@ -38,9 +38,9 @@ export class Navigation extends Component {
     const { classes } = this.props;
     const { showMenu } = this.state;
 
-    let boxClass = ['nav-links'];
+    const ulClass = ['nav-links'];
     if (showMenu) {
-      boxClass.push('open');
+      ulClass.push('open');
     }
 
     return (
@@ -48,7 +48,7 @@ export class Navigation extends Component {
         role="navigation"
         aria-label="Main"
         classes={classes.root}
-        className={boxClass.join(' ')}>
+        className={ulClass.join(' ')}>
         <IconButton
           onClick={this.handleNavigation}
           edge="start"

@@ -48,7 +48,8 @@ export class Navigation extends Component {
         role="navigation"
         aria-label="Main"
         classes={classes.root}
-        className={ulClass.join(' ')}>
+        className={ulClass.join(' ')}
+      >
         <IconButton
           onClick={this.handleNavigation}
           edge="start"

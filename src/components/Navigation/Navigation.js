@@ -22,21 +22,8 @@ const styles = theme => ({
   }
 });
 export class Navigation extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { showMenu: false };
-    this.handleNavigation = this.handleNavigation.bind(this);
-  }
-
-  handleNavigation = () => {
-    this.setState(state => ({
-      showMenu: !state.showMenu
-    }));
-  }
-
   render() {
-    const { classes } = this.props;
-    const { showMenu } = this.state;
+    const { classes, showMenu, handleNavigation } = this.props;
 
     const ulClass = ['nav-links'];
     if (showMenu) {
@@ -51,7 +38,7 @@ export class Navigation extends Component {
         className={ulClass.join(' ')}
       >
         <IconButton
-          onClick={this.handleNavigation}
+          onClick={handleNavigation}
           edge="start"
           className={classes.menuButton}
           color="inherit"

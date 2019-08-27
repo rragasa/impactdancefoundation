@@ -1,0 +1,15 @@
+.home {
+  .line {
+    background: $midPurple;
+    height: 40px;
+    width: calc(100% - 80px);
+    display: block;
+    position: absolute;
+    top: calc(50% - 246px);
+    z-index: -999;
+
+    @media (max-width: 600px) {
+      height: 25px;
+    }
+  }
+}

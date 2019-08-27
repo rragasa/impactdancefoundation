@@ -26,6 +26,7 @@ export class HomeHero extends Component {
     const { classes } = this.props;
     return (
       <Fragment>
+        <span className="line"></span>
         <Box
           component="div"
           className="clearfix"

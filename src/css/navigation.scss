@@ -15,12 +15,17 @@
   width: 100%;
   flex-direction: column;
   background: #4b2e62;
-  clip-path: circle(100vw);
-  -webkit-clip-path: circle(100vw);
+
+  //clip-path: circle(100vw);
+  //-webkit-clip-path: circle(100vw);
   pointer-events: all;
 
   button {
     color: #fff;
+  }
+
+  img {
+    display: none;
   }
 }
 

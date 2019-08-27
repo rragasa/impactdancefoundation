@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { withStyles } from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import Logo from '../../css/assets/imgs/logo.png';
 
 const styles = theme => ({
   root: {
@@ -19,7 +20,10 @@ const styles = theme => ({
   },
   menuIcon: {
     fontSize: '50px',
-  }
+  },
+  logo: {
+    margin: theme.spacing(3),
+  },
 });
 export class Navigation extends Component {
   render() {
@@ -37,6 +41,7 @@ export class Navigation extends Component {
         classes={classes.root}
         className={ulClass.join(' ')}
       >
+        <img src={Logo} className={classes.logo} />
         <IconButton
           onClick={handleNavigation}
           edge="start"

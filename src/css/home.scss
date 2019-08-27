@@ -1,15 +1,45 @@
 .home {
+  .strap-underline {
+    font-family: 'league_gothicregular';
+    font-size: 96px;
+    line-height: 96px;
+    color: #4B2E62;
+
+    @media (max-width: 600px) {
+      font-size: 36px;
+      line-height: 36px;
+    }
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: calc(50% - 80px);
+      height: 40px;
+      background: $midPurple;
+      position: absolute;
+      z-index: -999;
+      left: 0;
+      margin-top: 50px;
+
+      @media (max-width: 600px) {
+        height: 20px;
+        margin-top: 15px;
+      }
+    }
+  }
+
   .line {
     background: $midPurple;
     height: 40px;
-    width: calc(100% - 80px);
+    width: calc(100% - 150px);
     display: block;
     position: absolute;
-    top: calc(50% - 246px);
+    top: calc(50% - 174px);
     z-index: -999;
 
     @media (max-width: 600px) {
-      height: 25px;
+      height: 20px;
+      top: calc(50% - 136px);
     }
   }
 }

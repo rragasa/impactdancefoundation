@@ -14,6 +14,11 @@ const styles = theme => ({
       fontSize: '50px',
     },
   },
+  heroImg: {
+    width: '100vw',
+    height: '100vh',
+    objectFit: 'cover',
+  },
 });
 export class HomeHero extends Component {
   render() {
@@ -26,7 +31,7 @@ export class HomeHero extends Component {
           m={4}
         >
           <Grid container spacing={3} m={4}>
-            <Grid item xs={12} sm={8} md={5}>
+            <Grid item xs={12} sm={8} md={8} lg={5}>
               <Typography
                 variant="h1"
                 component="h1"
@@ -38,7 +43,7 @@ export class HomeHero extends Component {
             </Grid>
           </Grid>
         </Box>
-        <img src={HeroImg} width="100%" />
+        <img src={HeroImg} className={classes.heroImg} />
       </Fragment>
     );
   }

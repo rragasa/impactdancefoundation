@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 const styles = theme => ({
   strapLine: {
     fontFamily: 'league_gothicregular',
+    color: '#4B2E62',
   },
 });
 export class HomeHero extends Component {

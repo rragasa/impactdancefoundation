@@ -18,7 +18,7 @@ const styles = theme => ({
     width: '100%',
     height: '100vh',
     objectFit: 'cover',
-    margin: theme.spacing(3),
+    padding: theme.spacing(3),
   },
 });
 export class HomeHero extends Component {

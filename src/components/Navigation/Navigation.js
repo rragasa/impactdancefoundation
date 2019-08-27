@@ -58,7 +58,9 @@ export class Navigation extends Component {
         classes={classes.root}
         className={ulClass.join(' ')}
       >
-        <img src={Logo} className={classes.logo} />
+        <Link to="/">
+          <img src={Logo} className={classes.logo} />
+        </Link>
         <IconButton
           onClick={handleNavigation}
           edge="start"

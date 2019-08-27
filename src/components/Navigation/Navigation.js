@@ -12,17 +12,34 @@ const styles = theme => ({
   menuButton: {
     display: 'flex',
     float: 'right',
-    margin: theme.spacing(3),
     zIndex: '99999',
+    '@media (min-width:320px)': {
+      marginRight: '20px',
+      marginTop: '20px',
+    },
+    '@media (min-width:600px)': {
+      margin: theme.spacing(3),
+    },
   },
   title: {
     flexGrow: 1,
   },
   menuIcon: {
-    fontSize: '50px',
+    '@media (min-width:320px)': {
+      fontSize: '30px',
+    },
+    '@media (min-width:600px)': {
+      fontSize: '50px',
+    },
   },
   logo: {
     margin: theme.spacing(3),
+    '@media (min-width:320px)': {
+      width: '200px',
+    },
+    '@media (min-width:600px)': {
+      width: 'auto',
+    },
   },
 });
 export class Navigation extends Component {

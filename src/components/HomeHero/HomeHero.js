@@ -15,9 +15,10 @@ const styles = theme => ({
     },
   },
   heroImg: {
-    width: '100vw',
+    width: '100%',
     height: '100vh',
     objectFit: 'cover',
+    margin: theme.spacing(3),
   },
 });
 export class HomeHero extends Component {
@@ -31,7 +32,7 @@ export class HomeHero extends Component {
           m={4}
         >
           <Grid container spacing={3} m={4}>
-            <Grid item xs={12} sm={8} md={8} lg={5}>
+            <Grid item xs={12} sm={9} md={8} lg={5}>
               <Typography
                 variant="h1"
                 component="h1"

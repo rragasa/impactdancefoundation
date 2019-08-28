@@ -14,7 +14,7 @@ const styles = theme => ({
     float: 'right',
     zIndex: '99999',
     '@media (min-width:320px)': {
-      marginRight: '20px',
+      marginRight: theme.spacing(1),
       marginTop: '20px',
     },
     '@media (min-width:600px)': {
@@ -33,12 +33,14 @@ const styles = theme => ({
     },
   },
   logo: {
-    margin: theme.spacing(3),
     '@media (min-width:320px)': {
       width: '200px',
+      marginLeft: theme.spacing(1),
+      margin: theme.spacing(3),
     },
     '@media (min-width:600px)': {
       width: 'auto',
+      margin: theme.spacing(3),
     },
   },
 });

@@ -4,6 +4,14 @@ import Box from '@material-ui/core/Box';
 import HeroImg from '../../css/assets/imgs/IMPACT_YOUTH_LIVEVIBE_3-TheDukeLDN.jpg';
 
 const styles = theme => ({
+  root: {
+    '@media (min-width:320px)': {
+      margin: theme.spacing(1),
+    },
+    '@media (min-width: 600px)': {
+      margin: theme.spacing(3),
+    },
+  },
   strapLine: {
     fontFamily: 'league_gothicregular',
     fontSize: '96px',
@@ -18,7 +26,6 @@ const styles = theme => ({
     width: '100%',
     height: '100vh',
     objectFit: 'cover',
-    padding: theme.spacing(3),
   },
 });
 export class HomeHero extends Component {
@@ -28,8 +35,7 @@ export class HomeHero extends Component {
       <Fragment>
         <Box
           component="div"
-          className="clearfix"
-          m={4}
+          className={classes.root}
         >
           <div className={classes.strapLine}>TO MOTIVATE, LEAD</div>
           <div className={classes.strapLine}>AND INSPIRE 'ORDINARY'</div>
@@ -38,11 +44,16 @@ export class HomeHero extends Component {
           <div className={classes.strapLine}>THINGS THROUGH THE</div>
           <div className={classes.strapLine}>MEDIUM OF DANCE</div>
         </Box>
-        <img
-          src={HeroImg}
-          className={classes.heroImg}
-          alt="home hero"
-        />
+        <Box
+          component="div"
+          className={classes.root}
+        >
+          <img
+            src={HeroImg}
+            className={classes.heroImg}
+            alt="home hero"
+          />
+        </Box>
       </Fragment>
     );
   }

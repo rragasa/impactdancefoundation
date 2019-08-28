@@ -4,34 +4,15 @@ import Box from '@material-ui/core/Box';
 import HeaderImg from '../../css/assets/imgs/GORM-8493.jpg';
 import HeroRip from '../../css/assets/imgs/hero-rip-pages.svg';
 
-// const styles = theme => ({
-//   root: {
-//     margin: theme.spacing(3),
-//     '@media (min-width:320px)': {
-//       margin: '15px',
-//     },
-//   },
-//   heroWrap: {
-//     position: 'relative',
-//     width: '100%',
-//     //height: 'calc(100vh - 8.2rem)',
-//     zIndex: '-1',
-//   },
-//   hero: {
-//     height: '100%',
-//     width: '100%',
-//   },
-//   rip: {
-//     position: 'absolute',
-//     bottom: '0',
-//     width: '100%',
-//     height: '18rem',
-//     background: `url(${HeroRip}) no-repeat center top 7rem transparent`,
-//     backgroundSize: '110% auto',
-//   },
-// });
-
 const styles = theme => ({
+  root: {
+    '@media (min-width:320px)': {
+      margin: theme.spacing(1),
+    },
+    '@media (min-width: 600px)': {
+      margin: theme.spacing(3),
+    },
+  },
   heroOutWrap: {
     position: 'relative',
     width: '100%',
@@ -103,33 +84,24 @@ export class WhoWeAre extends Component {
     const { classes } = this.props;
 
     return(
-      // <Box
-      //   component="div"
-      //   className={classes.root}
-      // >
-      //   <div className={classes.heroWrap}>
-      //     <img
-      //       src={HeaderImg}
-      //       className={classes.hero}
-      //       alt="who we are hero"
-      //     />
-      //     <div className={classes.rip}></div>
-      //   </div>
-      // </Box>
-
-      <Box component="div" className={classes.heroOutWrap}>
-        <div className={classes.heroInnerWrap}>
-          <div className={classes.wrapDiv}>
-            <div className={classes.showHeroImg}>
-              <img
-                src={HeaderImg}
-                className={classes.heroViWidth}
-                alt="who we are hero"
-              />
+      <Box className="who-we-are">
+        <Box component="div" className={classes.heroOutWrap}>
+          <div className={classes.heroInnerWrap}>
+            <div className={classes.wrapDiv}>
+              <div className={classes.showHeroImg}>
+                <img
+                  src={HeaderImg}
+                  className={classes.heroViWidth}
+                  alt="who we are hero"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div className={classes.rip}></div>
+          <div className={classes.rip}></div>
+        </Box>
+        <Box className={classes.root}>
+          <h1 className="strap-underline">Who We Are</h1>
+        </Box>
       </Box>
     );
   }

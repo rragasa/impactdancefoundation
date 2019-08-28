@@ -59,7 +59,11 @@ export class Navigation extends Component {
         className={ulClass.join(' ')}
       >
         <Link to="/">
-          <img src={Logo} className={classes.logo} />
+          <img
+            src={Logo}
+            className={classes.logo}
+            alt="Impact Dance Logo"
+          />
         </Link>
         <IconButton
           onClick={handleNavigation}

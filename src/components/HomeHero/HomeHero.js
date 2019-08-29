@@ -18,8 +18,8 @@ const styles = theme => ({
     lineHeight: '96px',
     color: '#4B2E62',
     '@media (max-width:600px)': {
-      fontSize: '36px',
-      lineHeight: '36px',
+      fontSize: '44px',
+      lineHeight: '44px',
     },
   },
   heroImg: {
@@ -40,7 +40,7 @@ export class HomeHero extends Component {
           <div className={classes.strapLine}>TO MOTIVATE, LEAD</div>
           <div className={classes.strapLine}>AND INSPIRE 'ORDINARY'</div>
           <div className={classes.strapLine}>PEOPLE TO ACHIEVE</div>
-          <div className="strap-underline">'EXTRA-ORDINARY'</div>
+          <div className="strapline">'EXTRA-ORDINARY'</div>
           <div className={classes.strapLine}>THINGS THROUGH THE</div>
           <div className={classes.strapLine}>MEDIUM OF DANCE</div>
         </Box>

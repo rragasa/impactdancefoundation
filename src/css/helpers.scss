@@ -3,30 +3,32 @@
 }
 
 .strap-underline {
- font-family: 'league_gothicregular';
- font-size: 96px;
- line-height: 96px;
- color: #4B2E62;
+  font-family: 'league_gothicregular';
+  font-size: 96px;
+  line-height: 96px;
+  color: #4B2E62;
 
- @media (max-width: 600px) {
-   font-size: 36px;
-   line-height: 36px;
- }
+  @media (max-width: 600px) {
+    font-size: 50px;
+    line-height: 50px;
+  }
 
- &::before {
-   content: '';
-   display: inline-block;
-   width: calc(50% - 80px);
-   height: 40px;
-   background: $midPurple;
-   position: absolute;
-   z-index: -999;
-   left: 0;
-   margin-top: 50px;
+  &::before {
+    content: '';
+    display: inline-block;
 
-   @media (max-width: 600px) {
-     height: 20px;
-     margin-top: 15px;
-   }
- }
+    //width: calc(50% - 80px);
+    height: 40px;
+    background: $midPurple;
+    position: absolute;
+    z-index: -999;
+    left: 0;
+    margin-top: 50px;
+
+    @media (max-width: 600px) {
+      height: 30px;
+      margin-top: 20px;
+      width: calc(100% - 80px);
+    }
+  }
 }

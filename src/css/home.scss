@@ -1,0 +1,35 @@
+.home {
+  .strapline {
+    font-family: 'league_gothicregular';
+    font-size: 96px;
+    line-height: 96px;
+    color: #4B2E62;
+
+    @media (max-width: 600px) {
+      font-size: 44px;
+      line-height: 44px;
+    }
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: calc(50% - 80px);
+      height: 40px;
+      background: $midPurple;
+      position: absolute;
+      z-index: -999;
+      left: 0;
+      margin-top: 50px;
+
+      @media (max-width: 600px) {
+        height: 20px;
+        margin-top: 20px;
+        width: calc(90% - 80px);
+      }
+
+      @media (max-width: 960px) {
+        width: calc(100% - 80px);
+      }
+    }
+  }
+}

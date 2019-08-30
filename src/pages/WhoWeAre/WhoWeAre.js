@@ -19,22 +19,19 @@ const styles = theme => ({
     width: '100%',
     height: '82vh',
     zIndex: '-1',
-    '@media (min-width:320px)': {
-      height: 'auto',
-      padding: theme.spacing(1),
-    },
-    '@media (min-width: 1280px)': {
-      height: 'calc(80vh - 8.2rem)',
-      padding: theme.spacing(3),
-    },
   },
   heroInnerWrap: {
     margin: '0 auto',
     '@media (min-width:320px)': {
       height: 'auto',
+      padding: theme.spacing(1),
     },
     '@media (min-width: 600px)': {
       height: '100%',
+    },
+    '@media (min-width: 1280px)': {
+      height: 'calc(80vh - 8.2rem)',
+      padding: theme.spacing(3),
     },
   },
   wrapDiv: {

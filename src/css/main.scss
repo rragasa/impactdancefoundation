@@ -1,6 +1,10 @@
+// Base Imports
+@import "./reset";
+@import "./normalize";
 @import "./font";
 @import "./colors";
 @import "./helpers";
 
+//  Component Imports
 @import "./navigation";
 @import "./home";

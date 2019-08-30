@@ -16,8 +16,7 @@
   &::before {
     content: '';
     display: inline-block;
-
-    //width: calc(50% - 80px);
+    width: calc(50% - 80px);
     height: 40px;
     background: $midPurple;
     position: absolute;
@@ -29,6 +28,10 @@
       height: 30px;
       margin-top: 20px;
       width: calc(100% - 80px);
+    }
+
+    @media (max-width: 960px) {
+      width: calc(90% - 80px);
     }
   }
 }

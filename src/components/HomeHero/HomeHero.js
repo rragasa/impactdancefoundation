@@ -9,7 +9,7 @@ const styles = theme => ({
       margin: theme.spacing(1),
     },
     '@media (min-width: 600px)': {
-      margin: theme.spacing(3),
+      margin: theme.spacing(4),
     },
   },
   strapLine: {

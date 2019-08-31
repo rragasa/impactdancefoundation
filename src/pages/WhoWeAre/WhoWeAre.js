@@ -14,76 +14,99 @@ const styles = theme => ({
       margin: theme.spacing(3),
     },
   },
-  heroOutWrap: {
-    position: 'relative',
-    width: '100%',
-    height: '82vh',
-    zIndex: '-1',
-  },
-  heroInnerWrap: {
-    margin: '0 auto',
-    '@media (min-width:320px)': {
-      height: 'auto',
-      padding: theme.spacing(1),
-    },
-    '@media (min-width: 600px)': {
-      height: '100%',
-    },
-    '@media (min-width: 1280px)': {
-      height: 'calc(80vh - 8.2rem)',
-      padding: theme.spacing(3),
-    },
-  },
-  wrapDiv: {
-    width: '100%',
-    overflow: 'hidden',
-    filter: 'alpha(opacity=95)',
-    opacity: 0.95,
-    '@media (min-width:320px)': {
-      height: 'auto',
-    },
-    '@media (min-width: 600px)': {
-      height: '100%',
-    },
-  },
-  showHeroImg: {
-    filter: 'none',
-    opacity: 1,
-  },
-  heroViWidth: {
-    width: '100vw',
-    '@media (min-width:320px)': {
-      height: 'auto',
-    },
-    '@media (min-width: 600px)': {
-      height: '100%',
-    },
-  },
-  rip: {
-    position: 'absolute',
-    bottom: '0',
-    width: '100%',
-    background: `url(${HeroRip}) no-repeat center top 7rem transparent`,
-    backgroundSize: '110% auto',
-    '@media (min-width:320px)': {
-      height: '5rem',
-      backgroundPosition: 'center top',
-    },
-    '@media (min-width: 600px)': {
-      height: '8rem',
-    },
-    '@media (min-width: 1280px)': {
-      height: '9rem',
-    },
-  },
+  // heroOutWrap: {
+  //   position: 'relative',
+  //   width: '100%',
+  //   height: '82vh',
+  //   zIndex: '-1',
+  // },
+  // heroInnerWrap: {
+  //   margin: '0 auto',
+  //   '@media (min-width:320px)': {
+  //     height: 'auto',
+  //     padding: theme.spacing(1),
+  //   },
+  //   '@media (min-width: 600px)': {
+  //     height: '100%',
+  //   },
+  //   '@media (min-width: 1280px)': {
+  //     height: 'calc(80vh - 8.2rem)',
+  //     padding: theme.spacing(3),
+  //   },
+  // },
+  // wrapDiv: {
+  //   width: '100%',
+  //   overflow: 'hidden',
+  //   filter: 'alpha(opacity=95)',
+  //   opacity: 0.95,
+  //   '@media (min-width:320px)': {
+  //     height: 'auto',
+  //   },
+  //   '@media (min-width: 600px)': {
+  //     height: '100%',
+  //   },
+  // },
+  // showHeroImg: {
+  //   filter: 'none',
+  //   opacity: 1,
+  // },
+  // heroViWidth: {
+  //   width: '100vw',
+  //   '@media (min-width:320px)': {
+  //     height: 'auto',
+  //   },
+  //   '@media (min-width: 600px)': {
+  //     height: '100%',
+  //   },
+  // },
+  // rip: {
+  //   position: 'absolute',
+  //   bottom: '0',
+  //   width: '100%',
+  //   background: `url(${HeroRip}) no-repeat center top 7rem transparent`,
+  //   backgroundSize: '110% auto',
+  //   '@media (min-width:320px)': {
+  //     height: '5rem',
+  //     backgroundPosition: 'center top',
+  //   },
+  //   '@media (min-width: 600px)': {
+  //     height: '8rem',
+  //   },
+  //   '@media (min-width: 1280px)': {
+  //     height: '9rem',
+  //   },
+  // },
   pageHeading: {
-    marginTop: '-44px',
+    position: 'relative',
+    zIndex: '1',
+    marginTop: '-120px',
     padding: theme.spacing(2),
   },
   subHeading: {
     fontFamily: 'league_gothicregular',
     marginBottom: '15px',
-    color: '#777',
+    color: '#BBB',
+  },
+  heroWrapper: {
+    '@media (min-width:320px)': {
+      margin: theme.spacing(1),
+    },
+    '@media (min-width: 600px)': {
+      margin: theme.spacing(4),
+    },
+  },
+  hero: {
+    width: '100%',
+    maxHeight: '620px',
+    objectFit: 'cover',
+  },
+  pageContent: {
+    '@media (min-width:320px)': {
+      margin: theme.spacing(4),
+    },
+    '@media (min-width:600px)': {
+      margin: '62px',
+    },
   },
 });
 export class WhoWeAre extends Component {
@@ -92,7 +115,20 @@ export class WhoWeAre extends Component {
 
     return(
       <Box className="who-we-are">
-        <Box component="div" className={classes.heroOutWrap}>
+        <Box component="div" className={classes.heroWrapper}>
+          <img
+            src={HeaderImg}
+            className={classes.hero}
+            alt="who we are hero"
+          />
+          <Box className={[classes.root, classes.pageHeading]}>
+            <Typography variant="h4" component="h4" className={classes.subHeading}>
+              ABOUT
+            </Typography>
+            <h1 className="strap-underline">WHO WE ARE</h1>
+          </Box>
+        </Box>
+        {/* <Box component="div" className={classes.heroOutWrap}>
           <div className={classes.heroInnerWrap}>
             <div className={classes.wrapDiv}>
               <div className={classes.showHeroImg}>
@@ -105,12 +141,9 @@ export class WhoWeAre extends Component {
             </div>
           </div>
           <div className={classes.rip}></div>
-        </Box>
-        <Box className={[classes.root, classes.pageHeading]}>
-          <h3 className={classes.subHeading}>ABOUT</h3>
-          <h1 className="strap-underline">WHO WE ARE</h1>
-
-          <Typography
+        </Box> */}
+        <Box component="div" className={classes.pageContent}>
+        <Typography
             variant="p"
             component="p"
             gutterBottom

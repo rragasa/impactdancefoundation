@@ -33,14 +33,15 @@ const styles = theme => ({
     },
   },
   logo: {
+    marginTop: '20px',
     '@media (min-width:320px)': {
-      width: '200px',
       marginLeft: theme.spacing(1),
-      margin: theme.spacing(3),
+      width: '200px',
     },
     '@media (min-width:600px)': {
+      marginLeft: '18px',
       width: 'auto',
-      margin: theme.spacing(3),
+      //margin: theme.spacing(3),
     },
   },
 });

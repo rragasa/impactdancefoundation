@@ -79,8 +79,16 @@ const styles = theme => ({
   pageHeading: {
     position: 'relative',
     zIndex: '1',
-    marginTop: '-120px',
     padding: theme.spacing(2),
+    '@media (min-width:320px)': {
+      marginTop: '-120px',
+    },
+    '@media (min-width: 600px)': {
+      marginTop: '-140px',
+    },
+    '@media (min-width: 960px)': {
+      marginTop: '-160px',
+    },
   },
   subHeading: {
     fontFamily: 'league_gothicregular',
@@ -146,7 +154,7 @@ export class WhoWeAre extends Component {
         <Typography
             variant="p"
             component="p"
-            gutterBottom
+            paragraph
           >
             For nearly 25 years, Impact Dance has motivated, inspired and nurtured
             young people through hip-hop and street dance. Founded by Hakeem Onibudo,
@@ -156,7 +164,7 @@ export class WhoWeAre extends Component {
           <Typography
             variant="p"
             component="p"
-            gutterBottom
+            paragraph
           >
             Through dance training, mentoring, creative performances and international
             projects, we enable young people of all backgrounds - particularly those
@@ -168,7 +176,7 @@ export class WhoWeAre extends Component {
           <Typography
             variant="p"
             component="p"
-            gutterBottom
+            paragraph
           >
             Based and working in Brent, with a London-wide reach and a global footprint,
             Impact Dance is at a pivotal point in its history. Responding to a local need,

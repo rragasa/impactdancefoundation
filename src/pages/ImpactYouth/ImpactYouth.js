@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
+import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import HeaderImg from '../../css/assets/imgs/IMPACT_YOUTH_ThePlace_TUNEDIN_Alicia_Clarke.jpg';
+import ReactPlayer from 'react-player'
 
 const styles = theme => ({
   root: {
@@ -53,6 +56,13 @@ const styles = theme => ({
       margin: '62px',
     },
   },
+  sectionHeading: {
+    color: '#000',
+    fontFamily: 'league_gothicregular',
+    fontWeight: 'bold',
+    letterSpacing: '.2rem',
+    paddingBottom: '30px',
+  },
 });
 export class ImpactYouth extends Component {
   render() {
@@ -73,41 +83,50 @@ export class ImpactYouth extends Component {
             <h1 className="strap-underline">IMPACT YOUTH</h1>
           </Box>
         </Box>
-        <Box component="div" className={classes.pageContent}>
-        <Typography
-            variant="p"
-            component="p"
-            paragraph
-          >
-            For nearly 25 years, Impact Dance has motivated, inspired and nurtured
-            young people through hip-hop and street dance. Founded by Hakeem Onibudo,
-            the company has been a leader in the hip-hop, street and youth dance sector
-            since its inception in 1995.
-          </Typography>
-          <Typography
-            variant="p"
-            component="p"
-            paragraph
-          >
-            Through dance training, mentoring, creative performances and international
-            projects, we enable young people of all backgrounds - particularly those
-            less privileged and considered 'hard-to-reach' - to develop their creative
-            and life skills, to discover their talent and grow up to be 'fully functioning
-            individuals'; Impact alumini have gone on to thrive as, for example,
-            professional dance artists, investment bankers, radio presenters and designers.
-          </Typography>
-          <Typography
-            variant="p"
-            component="p"
-            paragraph
-          >
-            Based and working in Brent, with a London-wide reach and a global footprint,
-            Impact Dance is at a pivotal point in its history. Responding to a local need,
-            we are scaling up our operation to develop opportunities where there are none,
-            to invest in young people's futures, and to ensure we can continue these
-            efforts for years to come.
-          </Typography>
-        </Box>
+        <Grid container spacing={3}>
+          <Grid item xs={12} sm={12} md={7} lg={7}>
+            <Box component="div" className={classes.pageContent}>
+              <Typography variant="h3" component="h3" className={classes.sectionHeading}>
+                THE YOUTH
+              </Typography>
+              <Typography variant="p" component="p" paragraph>
+                Impact Youth is the performance company of the Academy and was the foundation
+                of the Impact Dance Company in its inaugural year in 1995. From there it has grown
+                to be one of the most successful Hip-Hop/Street Dance Youth companies of its time.
+                In 2005 Impact Youth became the first London company to represent their region at
+                England’s National Youth Dance Festival (now known as U.Dance) in Birmingham.
+                Over the last year few years Impact Youth represented London at the U.Dance event
+                in Salford and Birmingham in 2016 and 2017 respectively. The company has performed
+                at various venues and events and worked with large institutions including: NEC and
+                NIA Birmingham, Sadler’s Wells, Peacock theatre, Nickelodeon TV, Royal Ballet School,
+                C4 amongst others. The company have been asked to perform internationally at both
+                In the Picture Festival 2018 and 2019 in Amsterdam. On numerous occasions working
+                with Untold Dance, based at the Bijlmerpark Theatre in Amsterdam, on exchange
+                programmes with their youths and performing in the African Diaspora Performing
+                Arts Festival in 2018.
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
+        <Grid container spacing={3}>
+        <Grid item xs={12} sm={12} md={7} lg={7}>
+            <Box component="div" className={classes.pageContent}>
+              <ReactPlayer url='https://youtu.be/t0lzBXb8_lE' width='100%' />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={12} md={5} lg={5}>
+            <Box component="div" className={classes.pageContent}>
+              <Typography variant="h3" component="h3" className={classes.sectionHeading}>
+                STYLES
+              </Typography>
+              <Typography variant="p" component="p" paragraph>
+                Impact Youth creates dance theatre pieces combining a range of different
+                styles including hip-hop, street dance, contemporary movement and physical
+                theatre to create narratives.
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
       </Box>
     );
   }

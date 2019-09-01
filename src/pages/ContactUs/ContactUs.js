@@ -53,6 +53,13 @@ const styles = theme => ({
       margin: '62px',
     },
   },
+  sectionHeading: {
+    color: '#000',
+    fontFamily: 'league_gothicregular',
+    fontWeight: 'bold',
+    letterSpacing: '.2rem',
+    paddingBottom: '30px',
+  },
 });
 export class ContactUs extends Component {
   render() {
@@ -74,38 +81,27 @@ export class ContactUs extends Component {
           </Box>
         </Box>
         <Box component="div" className={classes.pageContent}>
-        <Typography
-            variant="p"
-            component="p"
-            paragraph
+          <Box component="div" mb={4}>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4962.026232098592!2d-0.239413!3d51.5496585!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876105331eee145%3A0xdc869f28f3a463af!2sThe%20Courtyard%2C%20100%20Villiers%20Rd%2C%20Willesden%2C%20London%20NW2%205PJ!5e0!3m2!1sen!2suk!4v1567372994713!5m2!1sen!2suk" width="100%" height="450" frameborder="0" allowfullscreen=""></iframe>
+          </Box>
+          <Typography
+            variant="h2"
+            component="h2"
+            className={classes.sectionHeading}
           >
-            For nearly 25 years, Impact Dance has motivated, inspired and nurtured
-            young people through hip-hop and street dance. Founded by Hakeem Onibudo,
-            the company has been a leader in the hip-hop, street and youth dance sector
-            since its inception in 1995.
+            IMPACT DANCE
           </Typography>
           <Typography
-            variant="p"
-            component="p"
-            paragraph
+            variant="h3"
+            component="h3"
           >
-            Through dance training, mentoring, creative performances and international
-            projects, we enable young people of all backgrounds - particularly those
-            less privileged and considered 'hard-to-reach' - to develop their creative
-            and life skills, to discover their talent and grow up to be 'fully functioning
-            individuals'; Impact alumini have gone on to thrive as, for example,
-            professional dance artists, investment bankers, radio presenters and designers.
-          </Typography>
-          <Typography
-            variant="p"
-            component="p"
-            paragraph
-          >
-            Based and working in Brent, with a London-wide reach and a global footprint,
-            Impact Dance is at a pivotal point in its history. Responding to a local need,
-            we are scaling up our operation to develop opportunities where there are none,
-            to invest in young people's futures, and to ensure we can continue these
-            efforts for years to come.
+            The Courtyard
+            <br />
+            100 Villiers Road
+            <br />
+            London
+            <br />
+            NW2 5PJ
           </Typography>
         </Box>
       </Box>

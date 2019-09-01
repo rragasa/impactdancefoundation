@@ -28,15 +28,29 @@ const styles = theme => ({
     '@media (min-width:600px)': {
       padding: '62px',
     },
+    color: '#777',
   },
   socialIcons: {
     display: 'flex',
-    justifyContent: 'flex-end',
+    '@media (min-width:320px)': {
+      justifyContent: 'center',
+    },
+    '@media (min-width:960px)': {
+      justifyContent: 'flex-end',
+    },
   },
   icon: {
     paddingLeft: '10px',
     paddingRight: '10px',
   },
+  copyRight: {
+    '@media (min-width:320px)': {
+      textAlign: 'center',
+    },
+    '@media (min-width:960px)': {
+      textAlign: 'left',
+    },
+  }
 });
 export class Footer extends Component {
   render() {
@@ -49,7 +63,7 @@ export class Footer extends Component {
               <Typography
                 variant="p"
                 component="p"
-                align="left"
+                className={classes.copyRight}
                 paragraph>Impact Dance©2019</Typography>
             </Grid>
             <Grid item xs={12} sm={12} md={6} lg={6}>

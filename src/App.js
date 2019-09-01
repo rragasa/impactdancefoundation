@@ -8,6 +8,7 @@ import ImpactYouth from './pages/ImpactYouth';
 import TheTeam from './pages/TheTeam';
 import ContactUs from './pages/ContactUs';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 class App extends Component {
   constructor(props) {
@@ -36,6 +37,7 @@ class App extends Component {
           <Route path="/the-team" component={TheTeam} />
           <Route path="/contact-us" component={ContactUs} />
         </Switch>
+        <Footer />
       </Box>
     );
   }

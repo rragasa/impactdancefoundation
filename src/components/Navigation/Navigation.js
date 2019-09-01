@@ -41,7 +41,6 @@ const styles = theme => ({
     '@media (min-width:600px)': {
       marginLeft: '18px',
       width: 'auto',
-      //margin: theme.spacing(3),
     },
   },
 });

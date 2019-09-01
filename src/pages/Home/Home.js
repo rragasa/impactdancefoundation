@@ -4,7 +4,7 @@ import HomeHero from '../../components/HomeHero';
 
 const Home = () => {
   return (
-    <Box component="div">
+    <Box component="div" className="home">
       <HomeHero />
     </Box>
   );

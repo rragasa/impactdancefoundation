@@ -14,7 +14,7 @@ const styles = theme => ({
     float: 'right',
     zIndex: '99999',
     '@media (min-width:320px)': {
-      marginRight: '20px',
+      marginRight: theme.spacing(1),
       marginTop: '20px',
     },
     '@media (min-width:600px)': {
@@ -33,12 +33,15 @@ const styles = theme => ({
     },
   },
   logo: {
-    margin: theme.spacing(3),
+    marginTop: '20px',
     '@media (min-width:320px)': {
+      marginLeft: theme.spacing(1),
       width: '200px',
     },
     '@media (min-width:600px)': {
+      marginLeft: '18px',
       width: 'auto',
+      //margin: theme.spacing(3),
     },
   },
 });
@@ -58,7 +61,13 @@ export class Navigation extends Component {
         classes={classes.root}
         className={ulClass.join(' ')}
       >
-        <img src={Logo} className={classes.logo} />
+        <Link to="/">
+          <img
+            src={Logo}
+            className={classes.logo}
+            alt="Impact Dance Logo"
+          />
+        </Link>
         <IconButton
           onClick={handleNavigation}
           edge="start"

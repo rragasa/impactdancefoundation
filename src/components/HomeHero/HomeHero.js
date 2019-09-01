@@ -1,24 +1,31 @@
 import React, { Component, Fragment } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
-import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
 import HeroImg from '../../css/assets/imgs/IMPACT_YOUTH_LIVEVIBE_3-TheDukeLDN.jpg';
-import { sizing } from '@material-ui/system';
 
 const styles = theme => ({
+  root: {
+    '@media (min-width:320px)': {
+      margin: theme.spacing(1),
+    },
+    '@media (min-width: 600px)': {
+      margin: theme.spacing(4),
+    },
+  },
   strapLine: {
     fontFamily: 'league_gothicregular',
+    fontSize: '96px',
+    lineHeight: '96px',
     color: '#4B2E62',
     '@media (max-width:600px)': {
-      fontSize: '50px',
+      fontSize: '44px',
+      lineHeight: '44px',
     },
   },
   heroImg: {
     width: '100%',
     height: '100vh',
     objectFit: 'cover',
-    margin: theme.spacing(3),
   },
 });
 export class HomeHero extends Component {
@@ -28,23 +35,25 @@ export class HomeHero extends Component {
       <Fragment>
         <Box
           component="div"
-          className="clearfix"
-          m={4}
+          className={classes.root}
         >
-          <Grid container spacing={3} m={4}>
-            <Grid item xs={12} sm={9} md={8} lg={5}>
-              <Typography
-                variant="h1"
-                component="h1"
-                className={classes.strapLine}
-                gutterBottom
-              >
-                TO MOTIVATE, LEAD AND INSPIRE 'ORDINARY' PEOPLE TO ACHIEVE 'EXTRA-ORDINARY' THINGS THROUGH THE MEDIUM OF DANCE
-              </Typography>
-            </Grid>
-          </Grid>
+          <div className={classes.strapLine}>TO MOTIVATE, LEAD</div>
+          <div className={classes.strapLine}>AND INSPIRE 'ORDINARY'</div>
+          <div className={classes.strapLine}>PEOPLE TO ACHIEVE</div>
+          <div className="strapline">'EXTRA-ORDINARY'</div>
+          <div className={classes.strapLine}>THINGS THROUGH THE</div>
+          <div className={classes.strapLine}>MEDIUM OF DANCE</div>
         </Box>
-        <img src={HeroImg} className={classes.heroImg} />
+        <Box
+          component="div"
+          className={classes.root}
+        >
+          <img
+            src={HeroImg}
+            className={classes.heroImg}
+            alt="home hero"
+          />
+        </Box>
       </Fragment>
     );
   }

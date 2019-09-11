@@ -78,12 +78,12 @@ export class Navigation extends Component {
         </IconButton>
         { showMenu && (
             <ul className="nav-links">
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/who-we-are">Who We Are</Link></li>
-              <li><Link to="/our-work">Our Work</Link></li>
-              <li><Link to="/impact-youth">Impact Youth</Link></li>
-              <li><Link to="/the-team">The Team</Link></li>
-              <li><Link to="/contact-us">Contact Us</Link></li>
+              <li><Link to="/" onClick={handleNavigation}>Home</Link></li>
+              <li><Link to="/who-we-are" onClick={handleNavigation}>Who We Are</Link></li>
+              <li><Link to="/our-work" onClick={handleNavigation}>Our Work</Link></li>
+              <li><Link to="/impact-youth" onClick={handleNavigation}>Impact Youth</Link></li>
+              <li><Link to="/the-team" onClick={handleNavigation}>The Team</Link></li>
+              <li><Link to="/contact-us" onClick={handleNavigation}>Contact Us</Link></li>
             </ul>
           )
         }

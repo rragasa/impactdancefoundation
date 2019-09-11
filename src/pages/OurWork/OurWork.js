@@ -264,7 +264,7 @@ export class OurWork extends Component {
                     </li>
                     <li>
                       <Typography variant="p" component="p" paragraph>
-                        Tickets available soon at: <a href="https://www.theplace.org.uk">theplace.org.uk</a>
+                        Tickets available at: <a href="https://www.theplace.org.uk">theplace.org.uk</a>
                       </Typography>
                     </li>
                     <li>

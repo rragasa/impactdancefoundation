@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
-import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import HeaderImg from '../../css/assets/imgs/IMPACT_YOUTH_ThePlace_TUNEDIN_Alicia_Clarke.jpg';
 import ReactPlayer from 'react-player'

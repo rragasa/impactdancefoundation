@@ -100,19 +100,19 @@ export class TheTeam extends Component {
           <Box mt={4} mb={4}>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={12} md={4} lg={4}>
-              <img src={PaigeImg} alt="Paige Jarrett Photo" className={classes.img} />
+              <img src={PaigeImg} alt="Paige Jarrett" className={classes.img} />
               <Typography variant="p" component="p" gutterBottom>
                 Paige Jarrett
               </Typography>
             </Grid>
             <Grid item xs={12} sm={12} md={4} lg={4}>
-              <img src={RebeccaImg} alt="Rebecca Leslie Photo" className={classes.img}/>
+              <img src={RebeccaImg} alt="Rebecca Leslie" className={classes.img}/>
               <Typography variant="p" component="p" gutterBottom>
                 Rebecca Leslie
               </Typography>
             </Grid>
             <Grid item xs={12} sm={12} md={4} lg={4}>
-              <img src={HakeemImg} alt="Hakeem Onibudo Photo" className={classes.img}/>
+              <img src={HakeemImg} alt="Hakeem Onibudo" className={classes.img}/>
               <Typography variant="p" component="p" gutterBottom>
                 Hakeem Onibudo
               </Typography>

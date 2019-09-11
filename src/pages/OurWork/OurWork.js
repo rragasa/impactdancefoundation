@@ -106,10 +106,13 @@ export class OurWork extends Component {
                 ACADEMY
               </Typography>
               <Typography variant="p" component="p" paragraph>
-                For nearly 25 years, Impact Dance has motivated, inspired and nurtured
-                young people through hip-hop and street dance. Founded by Hakeem Onibudo,
-                the company has been a leader in the hip-hop, street and youth dance sector
-                since its inception in 1995.
+                The academy represents the practical and mental ethos of Impact Dance for young
+                people aged 11-19 years. We aim to allow ordinary young people to achieve extra-ordinary
+                things through the medium of dance, all the time teaching leadership and life skills
+                to equip the youth with the capacity to realise their potential and become a Fully
+                Functioning Individual. This is done through our core group of teachers. The teachers
+                that represent the company are trained to deliver high quality classes all within
+                the ethos of the company.
               </Typography>
               <ul className={classes.list}>
                   <li>
@@ -117,10 +120,29 @@ export class OurWork extends Component {
                       CENTRAL ACADEMY
                     </Typography>
                     <Typography variant="p" component="p" paragraph>
-                      Our original Central London Academy trains over 20 young people aged
-                      11 - 17 for four hours every Saturday at Danceworks, in Mayfair. These sessions include technique and
-                      skill training as well as creative and choreographic tasks based around hip-hop dance theatre.
+                      Our original Central London Academy trains over 20 young people aged 11 - 19
+                      for four hours every Saturday at Danceworks, in Mayfair. These sessions include
+                      technique and skill training as well as creative and choreographic tasks based
+                      around hip-hop dance theatre.
                     </Typography>
+                    <ul>
+                      <li>
+                        <Typography variant="p" component="p" paragraph>
+                          <b>When:</b> Saturday 21st September – Saturday 7th December (Half Term - Saturday 26th October and Saturday 2nd November)
+                        </Typography>
+                      </li>
+                      <li>
+                        <Typography variant="p" component="p" paragraph>
+                          <b>Where:</b> Danceworks, 16 Balderton Street, Mayfair, W1K 6TN
+                        </Typography>
+                      </li>
+                      <li>
+                        <Typography variant="p" component="p" paragraph>
+                          <b>Fees:</b> £50 – 10-week term
+                        </Typography>
+                        </li>
+                      <li>Contact <a href="mailto:clara@impactdance.co.uk">clara@impactdance.co.uk</a> to book your space, or for more information</li>
+                    </ul>
                   </li>
                   <li>
                   <Typography variant="h5" component="h5" className={classes.subSection}>
@@ -177,7 +199,7 @@ export class OurWork extends Component {
             </Box>
           </Grid>
         </Grid>
-        <Grid container spacing={3} className={classes.rightAlign}>
+        <Grid container spacing={3} className={classes.leftAlign}>
           <Grid item xs={12} sm={12} md={7} lg={7}>
             <Box component="div" className={classes.pageContent}>
               <Typography variant="h3" component="h3" className={classes.sectionHeading}>

@@ -82,7 +82,7 @@ export class ContactUs extends Component {
         </Box>
         <Box component="div" className={classes.pageContent}>
           <Box component="div" mb={4}>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4962.026232098592!2d-0.239413!3d51.5496585!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876105331eee145%3A0xdc869f28f3a463af!2sThe%20Courtyard%2C%20100%20Villiers%20Rd%2C%20Willesden%2C%20London%20NW2%205PJ!5e0!3m2!1sen!2suk!4v1567372994713!5m2!1sen!2suk" width="100%" height="450" frameborder="0" allowfullscreen=""></iframe>
+            <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4962.026232098592!2d-0.239413!3d51.5496585!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876105331eee145%3A0xdc869f28f3a463af!2sThe%20Courtyard%2C%20100%20Villiers%20Rd%2C%20Willesden%2C%20London%20NW2%205PJ!5e0!3m2!1sen!2suk!4v1567372994713!5m2!1sen!2suk" width="100%" height="450" frameborder="0" allowfullscreen=""></iframe>
           </Box>
           <Typography
             variant="h2"

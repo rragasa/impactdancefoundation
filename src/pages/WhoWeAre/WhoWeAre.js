@@ -97,25 +97,23 @@ export class WhoWeAre extends Component {
                 IMPACT DANCE
               </Typography>
               <Typography variant="p" component="p" paragraph>
-                For nearly 25 years, Impact Dance has motivated, inspired and nurtured
-                young people through hip-hop and street dance. Founded by Hakeem Onibudo,
-                the company has been a leader in the hip-hop, street and youth dance sector
-                since its inception in 1995.
+                For nearly 25 years, Impact Dance has motivated, inspired and nurtured young people
+                through hip-hop and street dance. Founded by Hakeem Onibudo, the company has been a
+                leader in the hip-hop, street and youth dance sector since its inception in 1995.
               </Typography>
               <Typography variant="p" component="p" paragraph>
-                Through dance training, mentoring, creative performances and international
-                projects, we enable young people of all backgrounds - particularly those
-                less privileged and considered 'hard-to-reach' - to develop their creative
-                and life skills, to discover their talent and grow up to be 'fully functioning
-                individuals'; Impact alumini have gone on to thrive as, for example,
-                professional dance artists, investment bankers, radio presenters and designers.
+                Through dance training, mentoring, creative performances and international projects,
+                we enable young people of all backgrounds - particularly those less privileged and
+                considered 'hard-to-reach' - to develop their creative and life skills, to discover
+                their talent and grow up to be 'fully functioning individuals'; Impact alumni have
+                gone on to thrive as, for example, professional dance artists, investment bankers,
+                radio presenters and designers.
               </Typography>
               <Typography variant="p" component="p" paragraph>
-                Based and working in Brent, with a London-wide reach and a global footprint,
-                Impact Dance is at a pivotal point in its history. Responding to a local need,
-                we are scaling up our operation to develop opportunities where there are none,
-                to invest in young people's futures, and to ensure we can continue these
-                efforts for years to come.
+                Based and working in Brent, with a London-wide reach and a global footprint, Impact
+                Dance is at a pivotal point in its history. Responding to a local need, we are scaling
+                up our operation to develop opportunities where there are none, to invest in young people's
+                futures, and to ensure we can continue these efforts for years to come.
               </Typography>
             </Box>
           </Grid>
@@ -133,8 +131,9 @@ export class WhoWeAre extends Component {
                 individual to realise their potential in and through dance.
               </Typography>
               <Typography variant="p" component="p" paragraph>
-                By using dance to connect with young people aged 7 to 17, particularly those excluded
-                from accessing the arts due to financial or social barriers. Our aim is to continue to:
+                By using dance to connect with young people aged 7 to 17, particularly those
+                excluded from accessing the arts due to financial or social barriers. Our aim
+                is to continue to:
               </Typography>
               <ul className={classes.list}>
                   <li>Support young people's physical and mental wellbeing by providing high-quality dance training.</li>

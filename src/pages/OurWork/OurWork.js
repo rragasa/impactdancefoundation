@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import HeaderImg from '../../css/assets/imgs/IMG_4594.jpg';
-import outreachPDF from '../../css/assets/imgs/Outreach-Engagement.pdf';
 
 const styles = theme => ({
   root: {
@@ -165,10 +164,9 @@ export class OurWork extends Component {
                 AUTHENTICITY
               </Typography>
               <Typography variant="p" component="p" paragraph>
-                A London-wide youth dance company, Authenticity brings together the city’s most talented
-                young dancers and offers high-quality dance training and accessible performance opportunities
-                across the city. In 2019, Authenticity has been offered their second commission by Greenwich+Docklands
-                International Festival.
+                A London-wide youth dance company, Authenticity brings together the city’s most talented young dancers and offers high-quality
+                dance training and accessible performance opportunities across the city. In 2019, Authenticity was offered their second commission
+                by Greenwich+Docklands International Festival. Here they performed the site specific piece “Shop Plastique”.
               </Typography>
             </Box>
           </Grid>
@@ -180,21 +178,20 @@ export class OurWork extends Component {
                 OUTREACH
               </Typography>
               <Typography variant="p" component="p" paragraph>
-                Impact Dance has been delivering dance in schools, youth centre’s and educational environments
-                for over 23 years. We offer a wide range such as after-school clubs, enrichment sessions,
-                an educational resource (available with or without workshops), one off tailored workshops, work
-                experience or performances.
+                Impact Dance has been delivering dance in schools, youth centre’s and educational environments for over 23 years. We offer a wide
+                range such as after-school clubs, enrichment sessions, an educational resource (available with or without workshops), one off
+                tailored workshops, work experience or performances.
               </Typography>
               <Typography variant="p" component="p" paragraph>
-                All these sessions represent the same practical and mental ethos to allow young people to achieve
-                extra-ordinary things through the medium of dance whilst teaching leadership and life skills to equip
-                the youth with the capacity to release their potential. These are all led by one of our experienced dance
-                teachers who have been trained to deliver high quality classes all within the ethos of the company.
+                All these sessions represent the same practical and mental ethos to allow young people to achieve extra-ordinary things through
+                the medium of dance whilst teaching leadership and life skills to equip the youth with the capacity to release their potential.
+                These are all led by one of our experienced dance teachers who have been trained to deliver high quality classes all within the
+                ethos of the company.
               </Typography>
               <Typography variant="p" component="p" paragraph>
-                We take pride that these are affordable, accessible and will ensure they meet the educational facilitators needs.
-                The Impact team will manage all logistical elements whilst working closely with yourselves to guarantee a seamless experience.
-                <a href={outreachPDF}>Outreach & Engagement</a> For more information please contact our Learning and Participation Manager Rebecca at rebecca@impactdance.co.uk
+                We take pride that these are affordable, accessible and will ensure they meet the educational facilitators needs. The Impact
+                team will manage all logistical elements whilst working closely with yourselves to guarantee a seamless experience.“Take a
+                look at our ‘Outreach and Engagement’ info sheet. For more information please contact Clara <a href="mailto:clara@impactdance.co.uk">clara@impactdance.co.uk</a>
               </Typography>
             </Box>
           </Grid>
@@ -206,8 +203,7 @@ export class OurWork extends Component {
                 PROJECTS & EVENTS
               </Typography>
               <Typography variant="p" component="p" paragraph>
-
-
+                Coming soon...
               </Typography>
             </Box>
           </Grid>

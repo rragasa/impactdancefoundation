@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import HeaderImg from '../../css/assets/imgs/IMPACT_YOUTH_ThePlace_TUNEDIN_Alicia_Clarke.png';
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
 
 const styles = theme => ({
   root: {

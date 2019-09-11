@@ -4,6 +4,8 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import HeaderImg from '../../css/assets/imgs/GORM-8493.png';
+import ReactPlayer from 'react-player';
+
 
 const styles = theme => ({
   root: {
@@ -91,7 +93,7 @@ export class WhoWeAre extends Component {
           </Box>
         </Box>
         <Grid container spacing={3} className={classes.rightAlign}>
-          <Grid item xs={12} sm={12} md={7} lg={7}>
+          <Grid item xs={12} sm={12} md={12} lg={5}>
             <Box component="div" className={classes.pageContent}>
               <Typography variant="h3" component="h3" className={classes.sectionHeading}>
                 IMPACT DANCE
@@ -115,6 +117,11 @@ export class WhoWeAre extends Component {
                 up our operation to develop opportunities where there are none, to invest in young people's
                 futures, and to ensure we can continue these efforts for years to come.
               </Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={12} md={12} lg={6}>
+            <Box component="div" className={classes.pageContent}>
+              <ReactPlayer url='https://youtu.be/FoDjNgXEo2w' width='100%' />
             </Box>
           </Grid>
         </Grid>

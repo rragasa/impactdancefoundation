@@ -203,8 +203,81 @@ export class OurWork extends Component {
                 PROJECTS & EVENTS
               </Typography>
               <Typography variant="p" component="p" paragraph>
-                Coming soon...
+                We look for high-quality, impactful international opportunities for young people to benefit from. In 2019, this included Impact Youth Company
+                performing at the In the Picture Festival in Amsterdam, a British Council-supported collaboration with Uganda. As well as, the incredible 4x4 Dance Championship Competition
+                held in Wembley.
               </Typography>
+              <ul className={classes.list}>
+                <li><Typography variant="h5" component="h5" className={classes.subSection}>UPCOMING</Typography></li>
+                <li>
+                  <ul>
+                    <li>
+                    <Typography variant="p" component="p" paragraph>
+                      <b>IMPACT DANCEATHON</b>
+                    </Typography>
+                    </li>
+                    <li>
+                      <Typography variant="p" component="p" paragraph>
+                        We will be hosting a fundraising event to raise money to help support the work we are doing weekly with young people.
+                      </Typography>
+                    </li>
+                    <li>
+                      <Typography variant="p" component="p" paragraph>
+                        <b>When: </b> Saturday 2nd November 2019
+                      </Typography>
+                    </li>
+                    <li>
+                      <Typography variant="p" component="p" paragraph>
+                        <b>Time: </b> 3 - 6PM
+                      </Typography>
+                    </li>
+                    <li>
+                      <Typography variant="p" component="p" paragraph>
+                        <b>Location: </b> The Yellow, 1 Humphry Repton Lane, Wembley, NW2 5PJ
+                      </Typography>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li>
+                    <Typography variant="p" component="p" paragraph>
+                      <b>END OF YEAR SHOW</b>
+                    </Typography>
+                    </li>
+                    <li>
+                      <Typography variant="p" component="p" paragraph>
+                      Impact Dance will be taking over The Place for an epic night of youth dance.
+                      </Typography>
+                    </li>
+                    <li>
+                      <Typography variant="p" component="p" paragraph>
+                        <b>When: </b> Saturday 14th December 2019
+                      </Typography>
+                    </li>
+                    <li>
+                      <Typography variant="p" component="p" paragraph>
+                        <b>Time: </b> 7.30PM
+                      </Typography>
+                    </li>
+                    <li>
+                      <Typography variant="p" component="p" paragraph>
+                        <b>Location: </b> The Place, 17 Duke’s Road, London, WC1H 9PY
+                      </Typography>
+                    </li>
+                    <li>
+                      <Typography variant="p" component="p" paragraph>
+                        Tickets available soon at: <a href="https://www.theplace.org.uk">theplace.org.uk</a>
+                      </Typography>
+                    </li>
+                    <li>
+                      <Typography variant="p" component="p" paragraph>
+                        Contact Creative Producer <a href="mailto:paige@impactdance.co.uk">paige@impactdance.co.uk</a> for more information.
+                      </Typography>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </Box>
           </Grid>
         </Grid>

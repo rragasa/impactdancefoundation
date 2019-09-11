@@ -3,11 +3,11 @@ import { withStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import HeaderImg from '../../css/assets/imgs/IMG_4781.jpg';
-import RebeccaImg from '../../css/assets/imgs/rebecca_leslie.png';
-import PaigeImg from '../../css/assets/imgs/paige_jarrett.jpg';
-import HakeemImg from '../../css/assets/imgs/hakeem-onibudo.JPG';
-import ClaraImg from '../../css/assets/imgs/clara.jpeg';
+import HeaderImg from '../../css/assets/imgs/IMG_4781.png';
+import RebeccaImg from '../../css/assets/imgs/rebeccaleslie.png';
+import PaigeImg from '../../css/assets/imgs/paigejarrett.png';
+import HakeemImg from '../../css/assets/imgs/hakeemonibudo.png';
+import ClaraImg from '../../css/assets/imgs/claracowen.png';
 
 const styles = theme => ({
   root: {

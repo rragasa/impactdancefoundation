@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import HeaderImg from '../../css/assets/imgs/IMPACT_YOUTH_Startin_Point_6-TheDuke.LDN.jpg';
+import HeaderImg from '../../css/assets/imgs/IMPACT_YOUTH_Startin_Point_6-TheDuke.LDN.png';
 
 const styles = theme => ({
   root: {

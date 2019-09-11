@@ -103,6 +103,12 @@ export class ContactUs extends Component {
             <br />
             NW2 5PJ
           </Typography>
+          <Typography
+            variant="h3"
+            component="h3"
+          >
+            020 3937 9364
+          </Typography>
         </Box>
       </Box>
     );

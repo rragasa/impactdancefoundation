@@ -95,9 +95,6 @@ export class TheTeam extends Component {
           <Typography variant="h3" component="h3" className={classes.sectionHeading}>
             NICE TO MEET YOU
           </Typography>
-          <Typography variant="p" component="p" gutterBottom>
-            Say hello to your lovely team at Impact!
-          </Typography>
           <Box mt={4} mb={4}>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={12} md={4} lg={4}>

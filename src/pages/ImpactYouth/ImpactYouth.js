@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import HeaderImg from '../../css/assets/imgs/IMPACT_YOUTH_ThePlace_TUNEDIN_Alicia_Clarke.png';
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
 
 const styles = theme => ({
   root: {
@@ -89,10 +89,15 @@ export class ImpactYouth extends Component {
                 THE YOUTH
               </Typography>
               <Typography variant="p" component="p" paragraph>
-                The Youth Company includes dancers from our academy and is regularly invited to perform at national and international events.
-              </Typography>
-              <Typography variant="p" component="p" paragraph>
-                In 2005, Impact Youth became the first London company to represent their region at the National Youth Dance Festival.
+                Impact Youth is the performance company of the Academy and was the foundation of the Impact Dance Company in its inaugural
+                year in 1995. From there it has grown to be one of the most successful Hip-Hop/Street Dance Youth companies of its time. In
+                2005 Impact Youth became the first London company to represent their region at England’s National Youth Dance Festival (now known as U.Dance)
+                in Birmingham. Over the last year few years Impact Youth represented London at the U.Dance event in Salford and Birmingham in 2016
+                and 2017 respectively. The company has performed at various venues and events and worked with large institutions including:
+                NEC and NIA Birmingham, Sadler’s Wells, Peacock theatre, Nickelodeon TV, Royal Ballet School, C4 amongst others. The company
+                have also performed internationally at the In the Picture Festival 2018 and 2019 in Amsterdam. On numerous occasions working
+                with Untold Dance, based at the Bijlmerpark Theatre in Amsterdam, on exchange programmes with their youths and performing in
+                the African Diaspora Performing Arts Festival in 2018.
               </Typography>
             </Box>
           </Grid>
@@ -109,7 +114,7 @@ export class ImpactYouth extends Component {
                 STYLES
               </Typography>
               <Typography variant="p" component="p" paragraph>
-              Impact Youth creates narrative dance theatre pieces combining, hip-hop, street dance, contemporary movement and physical theatre.
+                Impact Youth creates dance theatre pieces combining a range of different styles including hip-hop, street dance, contemporary movement and physical theatre to create narratives.
               </Typography>
             </Box>
           </Grid>

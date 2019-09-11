@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import HeaderImg from '../../css/assets/imgs/IMG_4594.png';
-import outreachPDF from '../../css/assets/imgs/Outreach-Engagement.pdf';
+import outreachPDF from '../../css/assets/imgs/Outreach&Engagement.pdf';
 
 const styles = theme => ({
   root: {
@@ -264,7 +264,7 @@ export class OurWork extends Component {
                     </li>
                     <li>
                       <Typography variant="p" component="p" paragraph>
-                        Tickets available soon at: <a href="https://www.theplace.org.uk">theplace.org.uk</a>
+                        Tickets available at: <a href="https://www.theplace.org.uk">theplace.org.uk</a>
                       </Typography>
                     </li>
                     <li>

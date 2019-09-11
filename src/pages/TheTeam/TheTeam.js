@@ -7,6 +7,7 @@ import HeaderImg from '../../css/assets/imgs/IMG_4781.jpg';
 import RebeccaImg from '../../css/assets/imgs/rebecca_leslie.png';
 import PaigeImg from '../../css/assets/imgs/paige_jarrett.jpg';
 import HakeemImg from '../../css/assets/imgs/hakeem-onibudo.JPG';
+import ClaraImg from '../../css/assets/imgs/clara.jpeg';
 
 const styles = theme => ({
   root: {
@@ -100,21 +101,51 @@ export class TheTeam extends Component {
           <Box mt={4} mb={4}>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={12} md={4} lg={4}>
-              <img src={PaigeImg} alt="Paige Jarrett" className={classes.img} />
+              <img src={HakeemImg} alt="Hakeem Onibudo" className={classes.img}/>
               <Typography variant="p" component="p" gutterBottom>
-                Paige Jarrett
+                <b>HAKEEM ONIBUDO</b>
+              </Typography>
+              <Typography variant="p" component="p" gutterBottom>
+                CEO/Artistic Director
+              </Typography>
+              <Typography variant="p" component="p" gutterBottom>
+                <a href="mailto:hakeem@impactdance.co.uk">hakeem@impactdance.co.uk</a>
               </Typography>
             </Grid>
             <Grid item xs={12} sm={12} md={4} lg={4}>
               <img src={RebeccaImg} alt="Rebecca Leslie" className={classes.img}/>
               <Typography variant="p" component="p" gutterBottom>
-                Rebecca Leslie
+                <b>REBECCA LESLIE</b>
+              </Typography>
+              <Typography variant="p" component="p" gutterBottom>
+                Outreach and Engagement Manager
+              </Typography>
+              <Typography variant="p" component="p" gutterBottom>
+              <a href="mailto:rebecca@impactdance.co.uk">rebecca@impactdance.co.uk</a>
               </Typography>
             </Grid>
             <Grid item xs={12} sm={12} md={4} lg={4}>
-              <img src={HakeemImg} alt="Hakeem Onibudo" className={classes.img}/>
+              <img src={PaigeImg} alt="Paige Jarrett" className={classes.img} />
               <Typography variant="p" component="p" gutterBottom>
-                Hakeem Onibudo
+                <b>PAIGE JARRETT</b>
+              </Typography>
+              <Typography variant="p" component="p" gutterBottom>
+                Creative Producer
+              </Typography>
+              <Typography variant="p" component="p" gutterBottom>
+              <a href="mailto:paige@impactdance.co.uk">paige@impactdance.co.uk</a>
+              </Typography>
+            </Grid>
+            <Grid item xs={12} sm={12} md={4} lg={4}>
+              <img src={ClaraImg} alt="Paige Jarrett" className={classes.img} />
+              <Typography variant="p" component="p" gutterBottom>
+                <b>CLARA COWEN</b>
+              </Typography>
+              <Typography variant="p" component="p" gutterBottom>
+                Academy Manager
+              </Typography>
+              <Typography variant="p" component="p" gutterBottom>
+              <a href="mailto:clara@impactdance.co.uk">clara@impactdance.co.uk</a>
               </Typography>
             </Grid>
           </Grid>

@@ -70,8 +70,8 @@ export class Footer extends Component {
               <ul className={classes.socialIcons}>
                 <li className={classes.icon}><a href="https://www.facebook.com/Impact-Youth-Dance-Company-1912612922144724/"><FontAwesomeIcon icon={faFacebook} /></a></li>
                 <li className={classes.icon}><a href="https://twitter.com/Impact_Dance1"><FontAwesomeIcon icon={faTwitter} /></a></li>
-                <li className={classes.icon}><a href="https://www.instagram.com/impactdanceyouth/"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                <li className={classes.icon}><a href="https://www.youtube.com/channel/UCYU7ImEBHKrQCWYGdzoT4aQ"><FontAwesomeIcon icon={faYoutube} /></a></li>
+                <li className={classes.icon}><a href="https://www.instagram.com/officialimpactdance/"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                <li className={classes.icon}><a href="https://www.youtube.com/channel/UCQQnwN5gf4yi1VjlIMpoJeg"><FontAwesomeIcon icon={faYoutube} /></a></li>
               </ul>
             </Grid>
           </Grid>

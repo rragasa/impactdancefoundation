@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import HeaderImg from '../../css/assets/imgs/IMG_4594.jpg';
+import outreachPDF from '../../css/assets/imgs/Outreach-Engagement.pdf';
 
 const styles = theme => ({
   root: {
@@ -78,6 +79,9 @@ const styles = theme => ({
   leftAlign: {
     justifyContent: 'flex-end',
   },
+  projectsList: {
+    paddingTop: '25px',
+  },
 });
 export class OurWork extends Component {
   render() {
@@ -143,16 +147,6 @@ export class OurWork extends Component {
                       <li>Contact <a href="mailto:clara@impactdance.co.uk">clara@impactdance.co.uk</a> to book your space, or for more information</li>
                     </ul>
                   </li>
-                  <li>
-                  <Typography variant="h5" component="h5" className={classes.subSection}>
-                      NORTH WEST ACADEMY
-                    </Typography>
-                    <Typography variant="p" component="p" paragraph>
-                      We have recently opened our second Academy in the Borough of Brent in partnership with community
-                      centre The Yellow, supported by Wembley Park Quintain. Through the same core group of teachers,
-                      we run one-hour sessions for two age groups (7-10 and 11-17 years old).
-                    </Typography>
-                  </li>
               </ul>
             </Box>
           </Grid>
@@ -191,7 +185,10 @@ export class OurWork extends Component {
               <Typography variant="p" component="p" paragraph>
                 We take pride that these are affordable, accessible and will ensure they meet the educational facilitators needs. The Impact
                 team will manage all logistical elements whilst working closely with yourselves to guarantee a seamless experience.“Take a
-                look at our ‘Outreach and Engagement’ info sheet. For more information please contact Clara <a href="mailto:clara@impactdance.co.uk">clara@impactdance.co.uk</a>
+                look at our <a href={outreachPDF}>'Outreach and Engagement'</a> info sheet.
+              </Typography>
+              <Typography variant="p" component="p" paragraph>
+                For more information please contact Clara <a href="mailto:clara@impactdance.co.uk">clara@impactdance.co.uk</a>
               </Typography>
             </Box>
           </Grid>
@@ -239,7 +236,7 @@ export class OurWork extends Component {
                   </ul>
                 </li>
                 <li>
-                  <ul>
+                  <ul className={classes.projectsList}>
                     <li>
                     <Typography variant="p" component="p" paragraph>
                       <b>END OF YEAR SHOW</b>

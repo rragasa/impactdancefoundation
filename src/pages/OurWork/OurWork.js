@@ -3,7 +3,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import HeaderImg from '../../css/assets/imgs/IMG_4594.png';
+import HeaderImg from '../../css/assets/imgs/IMG_4594.jpg';
 import outreachPDF from '../../css/assets/imgs/Outreach&Engagement.pdf';
 
 const styles = theme => ({
@@ -44,7 +44,7 @@ const styles = theme => ({
   },
   hero: {
     width: '100%',
-    maxHeight: '620px',
+    maxHeight: '800px',
     objectFit: 'cover',
   },
   pageContent: {

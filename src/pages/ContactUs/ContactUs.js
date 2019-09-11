@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import HeaderImg from '../../css/assets/imgs/IMPACT_YOUTH_Startin_Point_6-TheDuke.LDN.png';
+import HeaderImg from '../../css/assets/imgs/IMPACT_YOUTH_Startin_Point_6-TheDuke.LDN.jpg';
 
 const styles = theme => ({
   root: {
@@ -42,7 +42,7 @@ const styles = theme => ({
   },
   hero: {
     width: '100%',
-    maxHeight: '620px',
+    maxHeight: '800px',
     objectFit: 'cover',
   },
   pageContent: {

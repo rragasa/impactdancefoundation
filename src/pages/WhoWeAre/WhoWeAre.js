@@ -48,7 +48,7 @@ const styles = theme => ({
   },
   hero: {
     width: '100%',
-    maxHeight: '620px',
+    maxHeight: '800px',
     objectFit: 'cover',
   },
   pageContent: {

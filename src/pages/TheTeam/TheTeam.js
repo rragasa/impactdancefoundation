@@ -3,7 +3,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import HeaderImg from '../../css/assets/imgs/IMG_4781.png';
+import HeaderImg from '../../css/assets/imgs/IMG_4781.jpg';
 import RebeccaImg from '../../css/assets/imgs/rebeccaleslie.png';
 import PaigeImg from '../../css/assets/imgs/paigejarrett.png';
 import HakeemImg from '../../css/assets/imgs/hakeemonibudo.png';
@@ -47,7 +47,7 @@ const styles = theme => ({
   },
   hero: {
     width: '100%',
-    maxHeight: '620px',
+    maxHeight: '800px',
     objectFit: 'cover',
   },
   pageContent: {
